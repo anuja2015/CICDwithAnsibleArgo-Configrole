@@ -1,0 +1,12 @@
+---
+# tasks file for springwebrole
+
+- name: Read definition template file and create deployment
+  kubernetes.core.k8s:
+    state: present
+    template: 'templates/deployment.j2'
+
+- name: Read definition and create service
+  kubernetes.core.k8s:
+    state: present
+    template: 'templates/service.j2'

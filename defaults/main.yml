@@ -1,0 +1,8 @@
+---
+# defaults file for springwebrole
+app_name: "argospringboot"
+image_name: "armdevu/sample-spring-boot-app"
+image_tag: 15
+k8s_namespace: "default"
+port: 3010
+

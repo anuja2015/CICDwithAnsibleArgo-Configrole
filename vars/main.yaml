@@ -1,0 +1,4 @@
+aks_cluster_name: "argocd-k8s"
+resource_group: "aks-resource-group"
+username: "azureuser"
+ssh_key: "/home/azureuser/.ssh/id_rsa.pub" 
